@@ -1,0 +1,146 @@
+<title>Vista Vela Sunset 5103</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap">
+<style>/* Layout: navy hero band with the portrait photo in a gold-edged mat, light sand body, hairline-ruled details, navy contact band. Cormorant Garamond display + Jost body. */
+:root{--bg:#F3EFE8;--surface:#FBF9F5;--fg:#0B2233;--muted:#374B5A;--line:#CFC6B6;--accent:#6F4F12;--sea:#0F5F73;--band:#0B2233;--band-fg:#F7F4EE;--gold:#E3C583;--btn:#0B2233;--btn-fg:#F7F4EE;
+--display:'Cormorant Garamond','Cormorant',Georgia,'Times New Roman',serif;--body:'Jost','Helvetica Neue',Arial,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#07161E;--surface:#0D2029;--fg:#F5F2EC;--muted:#C0CBD2;--line:#27404C;--accent:#E3C583;--sea:#7CCAD9;--band:#0E2A3B;--btn:#E3C583;--btn-fg:#07161E;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#07161E;--surface:#0D2029;--fg:#F5F2EC;--muted:#C0CBD2;--line:#27404C;--accent:#E3C583;--sea:#7CCAD9;--band:#0E2A3B;--btn:#E3C583;--btn-fg:#07161E;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:400 17px/1.65 var(--body);margin:0}
+.in{max-width:1160px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance;font-weight:600}
+h1{font-size:clamp(38px,5.6vw,66px);line-height:1.04;letter-spacing:-.005em}
+h2{font-size:clamp(30px,3.6vw,42px);line-height:1.1;margin:52px 0 18px;padding-top:18px;position:relative}
+h2::before{content:"";position:absolute;top:0;left:0;width:44px;height:2px;background:var(--accent)}
+h3{font-size:26px;font-style:italic;font-weight:500;margin:34px 0 16px;color:var(--sea)}
+p{margin:0 0 15px;max-width:66ch}
+.lbl,.tag,.pl,.cl,.fact dt{font:500 12.5px/1.4 var(--body);letter-spacing:.2em;text-transform:uppercase}
+.band{background:var(--band);color:var(--band-fg)}
+.top{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.brand{font:500 13px var(--body);letter-spacing:.32em;text-transform:uppercase;color:var(--gold)}
+.lang{color:var(--band-fg);font:500 13px var(--body);letter-spacing:.16em;text-transform:uppercase;border:1px solid rgba(247,244,238,.7);padding:8px 16px;text-decoration:none}
+.lang:hover,.lang:focus-visible{background:var(--band-fg);color:var(--band)}
+.hero{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:56px;align-items:center;padding:20px 0 56px}
+.hero-photo button{display:block;width:100%;padding:10px;border:1px solid var(--gold);background:none;cursor:zoom-in}
+.hero-photo img{display:block;width:100%;height:auto;max-height:80vh;object-fit:contain}
+.tag{color:var(--gold);margin-bottom:18px}
+.loc{font:500 13px var(--body);letter-spacing:.18em;text-transform:uppercase;margin:18px 0 12px;color:var(--band-fg)}
+.lead{font-size:19px;font-weight:300;color:var(--band-fg);max-width:46ch}
+.prices{display:flex;flex-wrap:wrap;gap:20px 56px;margin:28px 0;padding:22px 0;border-block:1px solid rgba(227,197,131,.55)}
+.price{display:flex;flex-direction:column;min-width:0;gap:2px}
+.pl{color:var(--gold)}
+.pv{font:600 clamp(42px,6vw,60px)/1 var(--display);font-variant-numeric:lining-nums tabular-nums;color:#fff}
+.pn{font-size:15px;color:var(--band-fg);max-width:28ch}
+.cta,.row{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;font:500 13.5px var(--body);letter-spacing:.16em;text-transform:uppercase;padding:15px 26px;background:var(--btn);color:var(--btn-fg);text-decoration:none;border:1px solid var(--btn);cursor:pointer;text-align:center}
+.btn.gold{background:var(--gold);color:#0B2233;border-color:var(--gold)}
+.btn.ghost{background:transparent;color:var(--fg);border-color:var(--fg)}
+.band .btn.ghost{color:var(--band-fg);border-color:rgba(247,244,238,.75)}
+.btn:hover{filter:brightness(1.1)}
+.btn:focus-visible,.lang:focus-visible,button:focus-visible{outline:3px solid var(--sea);outline-offset:3px}
+.band :focus-visible{outline-color:var(--gold)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin:0;border-bottom:1px solid var(--line)}
+.fact{padding:26px 18px 24px 0;min-width:0;display:flex;flex-direction:column-reverse;justify-content:flex-end;gap:6px}
+.fact dt{color:var(--muted);margin:0}
+.fact dd{margin:0}
+.fact .v{display:block;font:600 36px/1.1 var(--display);font-variant-numeric:lining-nums tabular-nums}
+.fact .s{display:block;font-size:14.5px;color:var(--muted)}
+.cols{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:64px;align-items:start}
+.side{background:var(--surface);border:1px solid var(--line);padding:6px 26px 20px;margin-top:52px}
+.side h2{margin-top:20px}
+.det{margin:0}.det div{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:14px;padding:11px 0;border-bottom:1px solid var(--line)}
+.det div:last-child{border-bottom:0}
+.det dt{color:var(--muted);font-weight:500}.det dd{margin:0;font-weight:400}
+ul{list-style:none;margin:0;padding:0}
+li{position:relative;padding:4px 0 4px 22px;min-width:0}
+li::before{content:"";position:absolute;left:2px;top:1.05em;width:6px;height:6px;background:var(--accent);transform:rotate(45deg)}
+.two{columns:2;column-gap:32px}.two li{break-inside:avoid}
+.dev{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:64px}
+.masonry{columns:3;column-gap:16px}
+.ph{margin:0 0 18px;break-inside:avoid}
+.ph button{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in}
+.ph img{display:block;width:100%;height:auto}
+.ph figcaption{font:italic 500 18px var(--display);color:var(--muted);padding-top:6px}
+.contact{margin-top:72px;padding-top:56px;padding-bottom:36px}
+.contact h2{margin-top:0;color:#fff}
+.contact h2::before{background:var(--gold)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.card{border:1px solid rgba(227,197,131,.55);padding:26px}
+.cl{color:var(--gold);margin-bottom:8px}
+.num{font:600 36px/1.1 var(--display);font-variant-numeric:lining-nums tabular-nums;margin:0 0 20px;user-select:all;color:#fff}
+.band .btn:not(.ghost){background:var(--gold);color:#0B2233;border-color:var(--gold)}
+footer{margin-top:36px;padding-top:18px;border-top:1px solid rgba(247,244,238,.3);font-size:14px;color:var(--band-fg)}
+.bar{display:none}
+.lb{position:fixed;inset:0;z-index:50;background:rgba(4,10,15,.95);display:flex;align-items:center;justify-content:center}
+.lb[hidden]{display:none}
+.lb figure{margin:0;max-width:min(92vw,1200px);display:flex;flex-direction:column;align-items:center;gap:10px}
+.lb img{max-width:100%;max-height:80vh;object-fit:contain}
+.lb figcaption{color:#fff;font:italic 500 20px var(--display)}
+.lb button{position:absolute;background:#fff;color:#0B2233;border:0;border-radius:999px;width:48px;height:48px;font:600 28px/1 var(--body);cursor:pointer}
+.lb .x{top:max(14px,env(safe-area-inset-top,0px));right:max(14px,env(safe-area-inset-right,0px))}
+.lb .p{left:max(10px,env(safe-area-inset-left,0px))}.lb .n{right:max(10px,env(safe-area-inset-right,0px))}
+@media (max-width:900px){.hero{grid-template-columns:1fr;gap:28px;padding-bottom:44px}.hero-photo img{max-height:none}.cols,.dev{grid-template-columns:1fr;gap:0}.masonry{columns:2}.side{margin-top:36px}}
+@media (max-width:640px){.two{columns:1}.masonry{columns:2;column-gap:10px}.bar{display:block;position:fixed;left:0;right:0;bottom:0;z-index:20;padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:var(--band);border-top:1px solid var(--gold)}.bar .btn{display:block;background:var(--gold);color:#0B2233;border-color:var(--gold)}.contact{padding-bottom:96px}.det div{grid-template-columns:1fr;gap:2px}.lb .nv{top:auto;bottom:max(16px,env(safe-area-inset-bottom,0px))}.ph figcaption{font-size:16px}}
+@media (prefers-reduced-motion:no-preference){.btn{transition:filter .15s}}
+</style>
+<div class="band"><div class="in">
+<header class="top"><span class="brand">Vista Vela Sunset</span><a class="lang" href="es.html" target="_blank" rel="noopener">Español</a></header>
+<section class="hero">
+<div class="hero-photo"><button type="button" data-i="0" aria-label="See all photos"><img src="img/06_dining-room.jpg" width="1200" height="1600" alt="Open living and dining"></button></div>
+<div class="hero-text">
+<p class="tag">For sale or rent · By owner</p>
+<h1>Turnkey 3-bedroom condo at Vista Vela Sunset</h1>
+<p class="loc">El Tezal West · Cabo San Lucas · Corridor Inland</p>
+<p class="lead">Brand new and fully furnished with designer furniture. Ground floor, with a terrace facing the pool and sunset views over the Cabo mountains.</p>
+<div class="prices">
+<div class="price"><span class="pl">For sale</span><span class="pv">$580,000</span><span class="pn">USD</span></div>
+<div class="price"><span class="pl">For rent</span><span class="pv">$3,500</span><span class="pn">USD · per month · 6-month contract + 1 month deposit</span></div>
+</div>
+<div class="cta"><a class="btn gold" href="https://wa.me/526242242674?text=Hello%2C%20I%20am%20interested%20in%20the%20condo%20at%20Vista%20Vela%20Sunset." target="_blank" rel="noopener">WhatsApp</a><a class="btn ghost" href="#gallery">See all photos</a></div>
+</div>
+</section></div></div>
+<div class="in">
+<dl class="facts"><div class="fact"><dt>Bedrooms</dt><dd><span class="v">3</span><span class="s"></span></dd></div><div class="fact"><dt>Bathrooms</dt><dd><span class="v">3 + ½</span><span class="s">3 full + 1 half</span></dd></div><div class="fact"><dt>Total area</dt><dd><span class="v">2,118 ft²</span><span class="s">196.73 m²</span></dd></div><div class="fact"><dt>Terrace</dt><dd><span class="v">350 ft²</span><span class="s">32.48 m²</span></dd></div><div class="fact"><dt>Parking spaces</dt><dd><span class="v">2</span><span class="s"></span></dd></div><div class="fact"><dt>Completed</dt><dd><span class="v">2025</span><span class="s">Move-in ready</span></dd></div></dl>
+<section class="cols">
+<div class="main">
+<h2>About the condo</h2><p>Brand-new, turnkey condo in Vista Vela Sunset, with spacious interiors, an open-concept living and dining area, and a fully equipped kitchen with appliances included. The unit comes fully furnished with designer furniture and high-end appliances, ready to move in or to start generating rental income immediately. Ideal as a primary residence, vacation home, or investment property.</p><p>The highlight is its location right in front of the pool, with an amazing view of Cabo’s breathtaking sunsets.</p><p>Vista Vela Sunset is a premier luxury development in El Tezal that redefines residential living with a blend of modern design and exceptional comfort. Each unit in this building offers high-quality finishes, spacious interiors, and stunning views that capture the essence of Cabo’s natural beauty. Residents enjoy a fully furnished clubhouse, gym, social area, kids’ playgrounds, a putting green, basketball and soccer fields, and padel and pickleball courts. Each tower has its own private pool, and the clubhouse has the main pool and a kids’ pool. With 24/7 security and a prime location close to beaches, shopping and dining, Building 1 at Vista Vela Sunset epitomizes luxury Cabo living with a scenic backdrop.</p>
+<h2>Condo advantages</h2><ul><li>The terrace faces the pool, so it feels like having your own pool a few steps from your door.</li><li>Roll-down shades on the terrace for privacy and to avoid direct sun.</li><li>Ground floor for easy everyday access.</li></ul>
+<h2>Included in the unit</h2><div class="two"><ul><li>Refrigerator</li><li>Dishwasher</li><li>Ceramic cooktop</li><li>Microwave</li><li>Oven</li><li>Garbage disposal</li><li>Blender</li><li>Coffee machine</li><li>Toaster</li><li>Washer and dryer</li><li>Potable water purification system</li><li>3 Full HD TVs</li><li>AC in all bedrooms and living room</li><li>Fans in each room</li><li>Plates and silverware</li><li>Knife set</li><li>Sheets and towels</li><li>Cleaning supplies</li></ul></div>
+</div>
+<aside class="side"><h2>Property details</h2><dl class="det"><div><dt>Construction</dt><dd>Completed 2025, brand new</dd></div><div><dt>Total area</dt><dd>2,118 ft² (196.73 m²)</dd></div><div><dt>Interior area</dt><dd>1,748 ft² (162.35 m²)</dd></div><div><dt>Terrace</dt><dd>350 ft² (32.48 m²)</dd></div><div><dt>Bedrooms</dt><dd>3</dd></div><div><dt>Full bathrooms</dt><dd>3</dd></div><div><dt>Half bathroom</dt><dd>1</dd></div><div><dt>Parking on property</dt><dd>2 spaces</dd></div><div><dt>Electricity</dt><dd>CFE</dd></div><div><dt>Furnished</dt><dd>Yes, fully furnished and ready to move in</dd></div><div><dt>Primary view</dt><dd>Cabo mountain landscape with stunning sunsets</dd></div><div><dt>Secondary view</dt><dd>Partial ocean view, Sea of Cortés</dd></div><div><dt>Pet friendly</dt><dd>Yes</dd></div></dl></aside>
+</section>
+<section class="dev"><div><h2>Development amenities</h2><ul><li>Private pool in each tower, plus the main clubhouse pool and a kids’ pool</li><li>Fully equipped fitness center</li><li>Clubhouse</li><li>Padel and pickleball courts</li><li>Landscaped gardens and green areas</li><li>Putting green</li><li>Kids’ playground</li><li>24/7 gated security</li></ul></div><div><h2>Development advantages</h2><ul><li>Concrete roads leading to the development</li><li>Underground power lines in the zone</li><li>El Huerto is right below, so the view will not be blocked</li><li>Amazing sunset views of Cabo’s mountain landscape</li><li>Elevated ground relative to neighboring properties</li><li>Solid, reputable developer with 6 successful developments, plus hospitality projects</li></ul></div></section>
+<section id="gallery"><h2>Photos</h2>
+<h3>The condo</h3><div class="masonry"><figure class="ph"><button type="button" data-i="1" aria-label="Living room"><img src="img/01_living-room.jpg" width="1600" height="1200" alt="Living room" loading="lazy"></button><figcaption>Living room</figcaption></figure><figure class="ph"><button type="button" data-i="2" aria-label="Terrace facing the pool"><img src="img/02_terrace-pool-view.jpg" width="1200" height="1600" alt="Terrace facing the pool" loading="lazy"></button><figcaption>Terrace facing the pool</figcaption></figure><figure class="ph"><button type="button" data-i="3" aria-label="Terrace dining"><img src="img/03_terrace-dining.jpg" width="1200" height="1600" alt="Terrace dining" loading="lazy"></button><figcaption>Terrace dining</figcaption></figure><figure class="ph"><button type="button" data-i="4" aria-label="Kitchen and dining"><img src="img/04_kitchen-dining.jpg" width="1600" height="1200" alt="Kitchen and dining" loading="lazy"></button><figcaption>Kitchen and dining</figcaption></figure><figure class="ph"><button type="button" data-i="5" aria-label="Kitchen island"><img src="img/05_kitchen-island.jpg" width="1600" height="1200" alt="Kitchen island" loading="lazy"></button><figcaption>Kitchen island</figcaption></figure><figure class="ph"><button type="button" data-i="6" aria-label="Primary bedroom"><img src="img/07_primary-bedroom.jpg" width="1200" height="1600" alt="Primary bedroom" loading="lazy"></button><figcaption>Primary bedroom</figcaption></figure><figure class="ph"><button type="button" data-i="7" aria-label="Second bedroom"><img src="img/08_bedroom-2.jpg" width="1200" height="1600" alt="Second bedroom" loading="lazy"></button><figcaption>Second bedroom</figcaption></figure><figure class="ph"><button type="button" data-i="8" aria-label="Third bedroom"><img src="img/09_bedroom-3.jpg" width="1600" height="1200" alt="Third bedroom" loading="lazy"></button><figcaption>Third bedroom</figcaption></figure><figure class="ph"><button type="button" data-i="9" aria-label="Bathroom"><img src="img/10_bathroom.jpg" width="1200" height="1600" alt="Bathroom" loading="lazy"></button><figcaption>Bathroom</figcaption></figure></div>
+<h3>The development</h3><div class="masonry"><figure class="ph"><button type="button" data-i="10" aria-label="Pool"><img src="img/11_pool.jpg" width="1200" height="1600" alt="Pool" loading="lazy"></button><figcaption>Pool</figcaption></figure><figure class="ph"><button type="button" data-i="11" aria-label="Pickleball court"><img src="img/12_pickleball-court.jpg" width="1200" height="1600" alt="Pickleball court" loading="lazy"></button><figcaption>Pickleball court</figcaption></figure><figure class="ph"><button type="button" data-i="12" aria-label="Gated entrance"><img src="img/13_vv-entrance.jpg" width="1138" height="640" alt="Gated entrance" loading="lazy"></button><figcaption>Gated entrance</figcaption></figure><figure class="ph"><button type="button" data-i="13" aria-label="Main pool, clubhouse and playground"><img src="img/14_vv-main-pool-aerial.jpg" width="1138" height="640" alt="Main pool, clubhouse and playground" loading="lazy"></button><figcaption>Main pool, clubhouse and playground</figcaption></figure><figure class="ph"><button type="button" data-i="14" aria-label="Clubhouse"><img src="img/15_vv-clubhouse.jpg" width="1536" height="1024" alt="Clubhouse" loading="lazy"></button><figcaption>Clubhouse</figcaption></figure></div></section>
+</div>
+<div class="band contact" id="contact"><div class="in"><h2>Contact the owner</h2>
+<div class="cards">
+<div class="card"><p class="cl">Mexico · WhatsApp</p><p class="num" id="n1">+52 624 224 2674</p><div class="row"><a class="btn" href="https://wa.me/526242242674?text=Hello%2C%20I%20am%20interested%20in%20the%20condo%20at%20Vista%20Vela%20Sunset." target="_blank" rel="noopener">WhatsApp</a><button type="button" class="btn ghost cp" data-t="n1" data-ok="Copied">Copy</button></div></div>
+<div class="card"><p class="cl">United States · Call or text</p><p class="num" id="n2">+1 619 942 9747</p><div class="row"><a class="btn" href="tel:+16199429747">Call</a><button type="button" class="btn ghost cp" data-t="n2" data-ok="Copied">Copy</button></div></div>
+</div>
+<footer>Prices and availability are set by the owner and may change. Areas are approximate; square feet are converted from square meters.</footer></div></div>
+<div class="bar"><a class="btn" href="https://wa.me/526242242674?text=Hello%2C%20I%20am%20interested%20in%20the%20condo%20at%20Vista%20Vela%20Sunset." target="_blank" rel="noopener">WhatsApp · +52 624 224 2674</a></div>
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true"><button type="button" class="x" aria-label="Close">×</button><button type="button" class="nv p" aria-label="Previous photo">‹</button><figure><img id="lbi" alt=""><figcaption id="lbc"></figcaption></figure><button type="button" class="nv n" aria-label="Next photo">›</button></div>
+<script>var PH=[{"src": "img/06_dining-room.jpg", "cap": "Open living and dining"}, {"src": "img/01_living-room.jpg", "cap": "Living room"}, {"src": "img/02_terrace-pool-view.jpg", "cap": "Terrace facing the pool"}, {"src": "img/03_terrace-dining.jpg", "cap": "Terrace dining"}, {"src": "img/04_kitchen-dining.jpg", "cap": "Kitchen and dining"}, {"src": "img/05_kitchen-island.jpg", "cap": "Kitchen island"}, {"src": "img/07_primary-bedroom.jpg", "cap": "Primary bedroom"}, {"src": "img/08_bedroom-2.jpg", "cap": "Second bedroom"}, {"src": "img/09_bedroom-3.jpg", "cap": "Third bedroom"}, {"src": "img/10_bathroom.jpg", "cap": "Bathroom"}, {"src": "img/11_pool.jpg", "cap": "Pool"}, {"src": "img/12_pickleball-court.jpg", "cap": "Pickleball court"}, {"src": "img/13_vv-entrance.jpg", "cap": "Gated entrance"}, {"src": "img/14_vv-main-pool-aerial.jpg", "cap": "Main pool, clubhouse and playground"}, {"src": "img/15_vv-clubhouse.jpg", "cap": "Clubhouse"}];(function(){
+var lb=document.getElementById('lb'),im=document.getElementById('lbi'),cp=document.getElementById('lbc'),cur=0,last=null;
+function show(i){cur=(i+PH.length)%PH.length;im.src=PH[cur].src;im.alt=PH[cur].cap;cp.textContent=PH[cur].cap}
+function open(i){last=document.activeElement;show(i);lb.hidden=false;lb.querySelector('.x').focus()}
+function close(){lb.hidden=true;im.removeAttribute('src');if(last&&last.focus)last.focus()}
+document.querySelectorAll('button[data-i]').forEach(function(b){b.addEventListener('click',function(){open(+b.getAttribute('data-i'))})});
+lb.querySelector('.x').addEventListener('click',close);
+lb.querySelector('.p').addEventListener('click',function(){show(cur-1)});
+lb.querySelector('.n').addEventListener('click',function(){show(cur+1)});
+lb.addEventListener('click',function(e){if(e.target===lb)close()});
+document.addEventListener('keydown',function(e){if(lb.hidden)return;if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)});
+var sx=null;lb.addEventListener('touchstart',function(e){sx=e.touches[0].clientX},{passive:true});
+lb.addEventListener('touchend',function(e){if(sx===null)return;var d=e.changedTouches[0].clientX-sx;if(Math.abs(d)>50)show(cur+(d<0?1:-1));sx=null});
+document.querySelectorAll('.cp').forEach(function(b){b.addEventListener('click',function(){
+var el=document.getElementById(b.getAttribute('data-t')),txt=el.textContent,old=b.textContent;
+function sel(){var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r)}
+function ok(){b.textContent=b.getAttribute('data-ok');setTimeout(function(){b.textContent=old},1500)}
+try{navigator.clipboard.writeText(txt).then(ok,sel)}catch(e){sel()}})});
+})();
+</script>
